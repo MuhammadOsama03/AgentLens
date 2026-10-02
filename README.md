@@ -1,6 +1,6 @@
-# AgentLens
+# AgentLens (superseded)
 
-AgentLens is a planned observability workspace for understanding AI-agent runs: what an agent attempted, which tools it used, how long each step took, and where failures occurred.
+AgentLens was the original concept for an AI-agent observability workspace. Active development has moved to [FlowBeacon](https://github.com/MuhammadOsama03/FlowBeacon), which will track what agents attempt, which tools they use, how long each step takes, and where failures occur.
 
 ## Product goals
 
@@ -25,6 +25,6 @@ AgentLens must treat prompts and tool results as sensitive by default. Raw secre
 - SQLite for local development
 - Automated tests and GitHub Actions
 
-## Status
+## Project status
 
-Repository initialized with a product scope and security-first implementation plan.
+This repository is retained as a record of the original product direction. New implementation work, issues, and documentation belong in FlowBeacon so the two projects do not diverge or duplicate effort.
